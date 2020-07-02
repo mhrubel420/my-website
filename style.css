@@ -1,0 +1,198 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0px;
+    padding: 0px;
+ }
+ .same_style{
+     width: 960px;
+     margin: 0px auto;
+}
+.half_width{
+    width: 400px;
+    float: left;
+    margin-left: 31px;
+    padding-left: 35px;
+    margin-top: 50px;
+ }
+ /* top_banner section Start */
+ .top_banner{
+     background-image: url("images/header-bg.png");
+     background-repeat: no-repeat;
+     height: 500px;
+     background-size: cover;
+ }
+
+  .content>h1{
+      font-size: 30px;
+  }
+  
+ 
+ .half_width img{
+     width: 100%;
+ }
+.content{
+    margin-top: 85px;
+    margin-left: 60px;
+}
+.name_highlight{
+    display: block;
+    color:#EC4C79;
+    font-weight: 700px;
+    font-size: 40px;
+}
+.link_btn{
+    text-decoration: none;
+    background-color: #EC4C79;
+    padding: 7px 20px;
+    border-radius: 5px;
+    color: white;
+    transition:all 1s ease;
+}
+.link_btn:hover{
+    background-color: orange;
+}
+/* top-_banner section end */
+
+ 
+/*Biography_part start */
+.Biography_part{
+    height: 600px;
+    background-image: url("images/biography-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+ .content h2{
+    font-size: 30px;
+}
+.content p{
+    color:dimgray;
+}
+
+/*Biography_part end */
+
+
+/* Working_experinces part start */
+.working_experinces{
+    height: 400px;
+    background-image: url('images/latest-work-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+ .img_part{
+     width: 860px;
+     margin: 0px auto;
+ }
+ .img_part h2{
+    text-align: center;
+    margin-top: 93px;
+    margin-bottom: 44px;
+    font-size: 30px;
+    border-bottom: 1px solid #e8e7e7;
+    padding-bottom: 26px;
+ }
+ .img_part img{
+     width: 260px;
+     margin-left: 18px;
+ }
+/* Working_experinces part End */
+
+
+/*footer_part start */
+.footer_part_bg{
+    height: 550px;
+    background-image: url("images/footer-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.footer_part{
+    width: 500px;
+    margin: 65px auto;
+    text-align: center;
+}
+.footer_part h3{
+    margin-bottom: 55px;
+    font-size: 30px;
+    font-weight: bold;
+}
+ 
+.footer_part span{
+    font-size: 12px;
+     
+}
+.footer_part>p{
+    margin-top: 50px;
+    color:dimgray;
+    
+}
+
+.footer_msg{
+    width: 500px;
+    height: 125px; 
+    background-color: #EC4B75;
+    border-radius: 10px;
+    margin-top: 60px;
+}
+.footer_msg span{
+    display: block;
+    padding-top:30px;
+    font-size: 12px;
+    color:white;
+}
+.footer_msg p{
+    font-size: 20px;
+    color:white;
+}
+footer p{
+    text-align: center;
+    font-size: 12px;
+    margin-top: 100px;
+    margin-bottom: 50px;
+     
+}
+/*footer_part End */
+
+
+/*contact_Part start*/
+.contact_form{
+    height: 400px;
+}
+.contact_box{
+    width: 600px;
+    margin: 0px auto;
+    background: linear-gradient(to right,#5086DC,#CA2790,#F64E28);
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 10px 10px 20px gray;
+}
+.same_design{
+   width: 150px;
+   float: left;
+   height: 300px;
+   margin-top: 25px;
+   margin-left: 20px;
+   
+}
+.same_design ul{
+    margin: 0px;
+    padding: 0px;
+}
+.same_design ul li{
+    list-style-type: none;
+}
+.same_design ul li a{
+    display: block;
+    text-decoration: none;
+    color:rgb(212, 206, 206);
+    padding:10px 50px;
+}
+.same_design h3{
+    margin-left: 50px;
+    color:white;
+}
+.contact_form>h2{
+    font-size: 30px;
+    margin-left: 60px;
+    margin-bottom: 60px;
+   
+}
+/*contact_part End*/
